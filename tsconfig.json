@@ -1,0 +1,29 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "newLine": "LF",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": false,
+    "strictBindCallApply": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "target": "es2016",
+    "lib": ["dom", "es6", "es2017", "es2019"]
+  },
+  "ts-node": {
+    "files": true
+  },
+  "include": ["src/**/*.ts", "config/**/*.ts", "static-files/**/*.json"]
+}
