@@ -1,6 +1,6 @@
-import { GET, Path, PathParam, QueryParam } from 'typescript-rest'
+import createHttpError from 'http-errors'
+import { GET, Path, QueryParam } from 'typescript-rest'
 import { CompanySummary } from './dto/summary/summary.dto'
-import { Period } from './types'
 
 @Path('/summaries')
 export class SummariesController {
@@ -11,6 +11,6 @@ export class SummariesController {
     @QueryParam('to') toDate?: string, // YYYY-MM-DD
   ): Promise<CompanySummary> {
     // Implement controller
-    return null
+    throw createHttpError(501, 'Not implemented')
   }
 }
