@@ -22,10 +22,9 @@ Given a from and to value, it should provide the totals and averages of the ever
 portfolio metric for each aggregation period within the given time period.
 An aggregation period is provided in the request and can be either month, quarter or year.
 For example, I should be able to retrieve the revenue averages and totals for
-revenue in each quarter from January 2020 to December 2020.
+revenue in each quarter from January 2020 to December 2020. Use the provided DTOs in the template source code as reference how the data could be formed.
 
-You are free to design the data structures and API endpoints as you see fit. If you don’t agree with the two endpoint
-solution, you can deviate from that too.
+You are free to design the data structures and API endpoints as you see fit. If you don’t agree with the two endpoint solution, you can deviate from that too.
 
 ## Things to consider
 
